@@ -1,0 +1,116 @@
+@font-face {
+    font-family: AMSCR;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: AMSCB;
+    src: url("../fonts/AmaticSC-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: CHR;
+    src: url("../fonts/CapitalHandWriting-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: HR;
+    src: url("../fonts/Habibi-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: NF;
+    src: url("../fonts/NameFont-Regular.ttf");
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  #App {
+    height: 100vh;
+  }
+  
+  #page-wrap {
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .bm-item {
+    display: inline-block;
+    text-decoration: none;
+    font-family: CHR;
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+    text-align: left;
+  }
+  
+  .bm-item:hover {
+    color: white;
+  }
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-cross-button {
+    height: 36px;
+    width: 36px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-list {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+    margin: 10px;
+    text-align: left;
+  }
+
+  .menu-list:hover {
+    color: white;
+  }
+
+  .menu-item-static {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #d1d1d1;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: left;
+  }
